@@ -1,0 +1,12 @@
+@url=http://localhost:3000
+
+###
+GET {{url}}
+
+###
+POST {{url}}/query
+Content-Type: "application/json"
+
+{
+	"question":"What is the document about?"
+}
